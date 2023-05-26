@@ -10,6 +10,21 @@ public class Cachorro {
     private double peso;
     private String estadoDeEspirito;
 
+    //Construtores
+
+    public Cachorro()
+    {
+
+    }
+    public Cachorro(String nome, String cor, int altura, int tamanhoDoRabo, double peso, String estadoDeEspirito) {
+        this.nome = nome;
+        this.cor = cor;
+        this.altura = altura;
+        this.tamanhoDoRabo = tamanhoDoRabo;
+        this.peso = peso;
+        this.estadoDeEspirito = estadoDeEspirito;
+    }
+
 
     //metodos
 
